@@ -1,42 +1,42 @@
---����--
-mouse.rb (���C�u����)
+--名称--
+mouse.rb (ライブラリ)
 
---�T�v--
-Windows.h�̃}�E�X(�J�[�\��)�ɂ������@�\��Ruby�ł��قړ����悤�Ɏ��s�ł���悤�ɂ����g�����C�u�����ł��B
-32bit�ł̗��p��z�肵�Ă��܂��B���̂���64bit�̊��ł͓��삵�܂���B
+--概要--
+Windows.hのマウス(カーソル)にかかわる機能をRubyでもほぼ同じように実行できるようにした拡張ライブラリです。
+32bitでの利用を想定しています。そのため64bitの環境では動作しません。
 
---���p���@--
-require "(mouse.rb�̑���or��΃p�X)/mouse"  or  require "./mouse" (�ꕔ�̊��ł͎��s�\)
+--利用方法--
+require "(mouse.rbの相対or絶対パス)/mouse"  or  require "./mouse" (一部の環境では実行可能)
 
 or
 
-(�\�[�X�R�[�h��mouse.rb�Ɠ����f�B���N�g���ɂ���ꍇ)require_relative "mouse"
+(ソースコードがmouse.rbと同じディレクトリにある場合)require_relative "mouse"
 
-**����**
-�K��mouse.so�Ɠ����f�B���N�g���ɔz�u���Ă��������B
-
-===========
-
---����--
-sample.rb (�T���v���\�[�X)
-
---�T�v--
-time(�b�P��)�̊Ԃ����}�E�X�J�[�\���̓������L�^�A���̂̂��O�Ղ����ǂ�܂�
-
---���p���@--
-time�̒l���������Ď��s
-�}�E�X�����R�ɓ������ē��������y���݂�������
-
-**����**
-�V�тō�����v���O�����ł��B���p���͊F���ł��B
+**注意**
+必ずmouse.soと同じディレクトリに配置してください。
 
 ===========
 
-*���*
-�۔��F��
+--名称--
+sample.rb (サンプルソース)
+
+--概要--
+time(秒単位)の間だけマウスカーソルの動きを記録、そののち軌跡をたどります
+
+--利用方法--
+timeの値をいじって実行
+マウスを自由に動かして動きをお楽しみください
+
+**注意**
+遊びで作ったプログラムです。実用性は皆無です。
+
+===========
+
+*作者*
+丸尾孝光
     ->Twitter:@schumit_t
     ->GitHub:@TakamitsuMaruo
     ->Qiita:@Schumitt
 
-�����R�ɂ����p���������B
-�o�O�񍐂Ȃǂ͏�L�̂ǂꂩ�̃A�J�E���g�ւ��肢���܂��B(Twitter���ł��C�Â��₷���ł��B)
+ライセンスに則ってご自由にご利用ください。
+バグ報告などは上記のどれかのアカウントへお願いします。(Twitterが最も気づきやすいです。)
