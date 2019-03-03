@@ -15,8 +15,6 @@ or
 # 注意  
 必ず`mouse.so`と同じディレクトリに配置してください。  
 
---------------
-
 # 名称  
 `sample.rb` (サンプルソース)
 
@@ -30,13 +28,11 @@ or
 # 注意
 遊びで作ったプログラムです。**実用性は皆無です**。  
 
---------------
-
-# 作者
-丸尾孝光
-    ->Twitter:[@schumit_t](https://twitter.com/schumit_t)
-    ->GitHub:[@TakamitsuMaruo](https://github.com/TakamitsuMaruo)
-    ->Qiita:[@Schumitt](https://qiita.com/Schmitt)
+# 作者  
+丸尾孝光  
+    Twitter:[@schumit_t](https://twitter.com/schumit_t)  
+    GitHub:[@TakamitsuMaruo](https://github.com/TakamitsuMaruo)  
+    Qiita:[@Schumitt](https://qiita.com/Schmitt)  
 
 ライセンスに則ってご自由にご利用ください。
 バグ報告などは上記のどれかのアカウントへお願いします。(Twitterが最も気づきやすいです。)
