@@ -25,7 +25,7 @@ Please put `mouse.rb` and `mouse.so` in same directory.
 This program records your route of cursor for `time`(variable) seconds,then starts to follow the route.  
 
 ## Usage   
-`ruby sample.rb`  
+`$ ruby sample.rb`  
 
 ## Note  
 **There's No Practicality**.
