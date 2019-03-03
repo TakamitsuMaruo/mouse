@@ -35,5 +35,5 @@ This program records your route of cursor for `time`(variable) seconds,then star
     GitHub:[@TakamitsuMaruo](https://github.com/TakamitsuMaruo)  
     Qiita:[@Schumitt](https://qiita.com/Schmitt)  
 
-The codes are available as open source under the terms of the MIT License.
+**These codes are available as open source under the terms of the MIT License**.
 Bug reports and Pull Requests are welcome on Twitter,GitHub and Qiita.
