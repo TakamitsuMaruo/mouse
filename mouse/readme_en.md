@@ -6,11 +6,11 @@
 A Ruby expansion library which adds function about cursor from C header,`windows.h` to Ruby.    
 
 ## Usage  
-`require "(PATH of mouse.rb)/mouse"`  or  `require "./mouse"`  
+`require "(PATH of mouse.rb)/mouse"`    
 
 or  
 
-(If your source is in same directory with this library)`require_relative "mouse"`  
+(If your source is in same directory with this library)`require_relative "mouse"`  or  `require "./mouse"`
 
 ## Note   
 I compiled with GCC which works on 32bit. So **this library works on only 32bit environment**.  
