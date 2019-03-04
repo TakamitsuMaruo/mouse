@@ -14,7 +14,7 @@ or
 
 ## Note   
 I compiled with GCC which works on 32bit. So **this library works only in 32bit environment**.  
-This library includes `windows.h` so **it works only on Windows**.  
+This library includes `windows.h` so **it works only in Windows**.  
 Please put `mouse.rb` and `mouse.so` in same directory.
 
 # SAMPLE SOURCE
