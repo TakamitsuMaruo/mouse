@@ -7,7 +7,7 @@
 **32bitでの利用を想定しています**。そのため**64bitの環境では動作しません**。  
 
 ## 利用方法  
-`require "(mouse.rbの相対or絶対パス)/mouse"`  or  `require "./mouse"` (一部の環境では実行可能)  
+`require "(mouse.rbの相対or絶対パス)/mouse"`  or  `require "./mouse"`  
 
 or  
 
